@@ -340,6 +340,11 @@ header{
     border-radius: 10px;
 }
 
+@media screen and (max-width:768px ) {
+    #scroll-top{
+        display: none;
+    }
+}
 
 
 

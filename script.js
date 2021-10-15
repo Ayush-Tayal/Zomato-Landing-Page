@@ -27,26 +27,6 @@ previous.addEventListener('click', ()=>{
 });
 
 
-
-// next.onclick=()=>{
-//     console.log("Next Clicked");
-//     if (counter < 5) {
-//         counter--;
-//         slider.style.transitionDuration = "0.5s";
-//         slider.style.tarnsform = `translateX(-${counter * cardWidth}px)`;
-        
-//     }
-// };
-
-// previous.onclick=()=>{
-//     console.log("previous Clicked")
-//     if (counter < 50) {
-//         counter++;
-//         slider.style.transitionDuration = "0.5s";
-//         slider.style.tarnsform = `translateX(-${counter * cardWidth}px)`;
-        
-//     }
-// };
 const movetop = document.querySelector("#scroll-top");
 // console.log(movetop);
 
