@@ -43,12 +43,13 @@ nav input, select{
 
 nav select{
     border-right: 2px solid grey;
-    width: 200px;
     padding: 5px;
+    margin-right:10px;
+    background-color: white;
 }
 
 nav input{
-    width: 25rem;
+    width: 24rem;
  
 }
 
@@ -126,7 +127,7 @@ hr{
 header{
     position: sticky;
     top: 0;
-    
+    z-index: 200;
 }
 
 .header .tag{
@@ -164,10 +165,11 @@ header{
 .dish img{
     height: 190px;
     width: 260px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+
     /* border-radius: 20px; */
     object-fit: cover;
     padding-right: 30px;
@@ -187,7 +189,7 @@ header{
     position: absolute;
     cursor: pointer;
     z-index: 2;
-
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
 }
 
 .previous{
@@ -381,6 +383,7 @@ header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        width: 100%;
     }
 
     #inspiration{
@@ -421,19 +424,17 @@ header{
         z-index: 200;
         background-color: white;
         color: rgb(144, 144, 144);
-        font-size: 10px;
-        width: 70%;
-        justify-content: space-evenly;
+        font-size: 0.5rem;
+        width: 100%;
+        padding-top: 10px;
+        justify-content: space-around;
     }
     
     .mob-bottom-icon{
         display: flex;
         justify-content: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-
-
-
 
 }
 
