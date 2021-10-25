@@ -338,6 +338,7 @@ header{
     #mob-nav{
         display: flex;
         justify-content: space-between;
+        /* justify-content: center; */
     }
 
     .mob-buttons button{
@@ -362,6 +363,7 @@ header{
     /* headers */
     .header{
         display: flex;
+        overflow: auto;
     }
 
     header{
@@ -424,8 +426,8 @@ header{
         z-index: 200;
         background-color: white;
         color: rgb(144, 144, 144);
-        font-size: 0.5rem;
-        width: 90%;
+        font-size: 0.4rem;
+        width: 100%;
         padding-top: 10px;
         justify-content: space-around;
     }
