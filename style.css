@@ -157,7 +157,7 @@ header{
 
 }
 
-.slider-container{
+.slider-container {
     display: flex;
     overflow: hidden;
 }
@@ -169,7 +169,7 @@ header{
     border-top-right-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
-
+    z-index:1;
     /* border-radius: 20px; */
     object-fit: cover;
     padding-right: 30px;
@@ -425,7 +425,7 @@ header{
         background-color: white;
         color: rgb(144, 144, 144);
         font-size: 0.5rem;
-        width: 100%;
+        width: 90%;
         padding-top: 10px;
         justify-content: space-around;
     }
@@ -436,6 +436,14 @@ header{
         font-size: 1.5rem;
     }
 
+    /* ------------------------------- */
+
+    #end-of-results{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 6rem;
+    
+    }
 }
 
 @media screen and (min-width:768px){

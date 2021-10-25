@@ -14,6 +14,7 @@ next.addEventListener('click', ()=>{
         counter++;
         imageSlider.style.transition = "transform 0.4s ease-in-out";
         imageSlider.style.transform = 'translateX(' + (-cardWidth * counter) + 'px)';
+        
     }
 });
 
@@ -24,6 +25,7 @@ previous.addEventListener('click', ()=>{
         imageSlider.style.transition = "transform 0.4s ease-in-out";
         imageSlider.style.transform = 'translateX(' + (cardWidth * counter) + 'px)';
     }
+
 });
 
 
