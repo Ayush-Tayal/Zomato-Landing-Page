@@ -8,6 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 
+button{
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     width: 60%;
@@ -26,13 +30,8 @@ nav{
 }
 
 #zomato-logo img{
-    /* width: 20%;
-    margin-left: 30%; */
     height: 1.8rem;
-    /* padding: 10px; */
-    /* margin-top: 10px; */
     cursor: pointer;
-
 }
 
 nav input, select{
@@ -50,7 +49,6 @@ nav select{
 
 nav input{
     width: 24rem;
- 
 }
 
 #search-box{
@@ -63,7 +61,6 @@ nav input{
 
 .fa-map-marker{
     font-size: 25px;
-    /* background-color: rgb(233, 98, 121); */
 }
 
 .buttons button{
@@ -95,7 +92,6 @@ nav input{
 
 /* Second nav */
 
-
 #second-nav img{
     height: 50px;
     margin-right: 20px;
@@ -109,14 +105,12 @@ nav input{
     background-color: white;
     margin-top: 50px;
     margin-right: 20px;
-    
 }
 
 #second-nav #delivery{
     border-bottom: 2px solid rgb(239, 79, 95);
     color: rgb(239, 79, 95);
 }
-
 
 hr{
     margin-top: 0px;
@@ -141,36 +135,31 @@ header{
     max-width: 12rem;
     margin-top: 30px;
     color: grey;
-   
 }
 
 /* Slider */
 
 #inspiration{
-    font-size: 20px;
+    overflow: hidden;
+    font-size: 1.2rem;
     margin-top: 50px;
     padding: 10px;
 }
 
-#slider{
-    position: relative;
-
+.slider-container{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.slider-container {
-    display: flex;
-    overflow: hidden;
+#slider{
+    position: relative;
 }
 
 .dish img{
     height: 190px;
     width: 260px;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
     z-index:1;
-    /* border-radius: 20px; */
+    border-radius: 20px;
     object-fit: cover;
     padding-right: 30px;
 }
@@ -194,12 +183,12 @@ header{
 
 .previous{
     top: 25%;
-    left: 18.5%;
+    left: -0.5%;
 }
 
 .next{
     top: 25%;
-    right: 18.5%;
+    right: -0.5%;
 }
 
 /*----------Top brands----------*/

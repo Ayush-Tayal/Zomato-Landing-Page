@@ -1,16 +1,16 @@
 const previous = document.querySelector(".previous");
 const next = document.querySelector(".next");
 const imageSlider = document.querySelector(".slider-container");
-const cardWidth =  document.querySelector(".dish").offsetWidth;
+let cardWidth =  document.querySelector(".dish img").width;
 
-
-console.log(previous, previous, cardWidth, imageSlider  );
+// console.log(previous, previous, cardWidth, imageSlider  );
 
 let counter = 0;
 
+
 next.addEventListener('click', ()=>{
     console.log("next clicked");
-    if(counter < 5){
+    if(counter < 6){
         counter++;
         imageSlider.style.transition = "transform 0.4s ease-in-out";
         imageSlider.style.transform = 'translateX(' + (-cardWidth * counter) + 'px)';
@@ -19,8 +19,8 @@ next.addEventListener('click', ()=>{
 });
 
 previous.addEventListener('click', ()=>{
-    console.log("next clicked");
-    if(counter < 5){
+    console.log("previous clicked");
+    if(counter < 6){
         counter++;
         imageSlider.style.transition = "transform 0.4s ease-in-out";
         imageSlider.style.transform = 'translateX(' + (cardWidth * counter) + 'px)';
@@ -29,6 +29,7 @@ previous.addEventListener('click', ()=>{
 });
 
 
+// Move to Top
 const movetop = document.querySelector("#scroll-top");
 // console.log(movetop);
 
