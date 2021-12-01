@@ -1,4 +1,4 @@
 # Zomato-Landing-Page
 
-https://vibrant-einstein-6e7e6b.netlify.app/
+https://ayush-tayal.github.io/Zomato-Landing-Page/
 
